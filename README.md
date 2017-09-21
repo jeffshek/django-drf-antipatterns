@@ -5,7 +5,7 @@ _“Only a fool learns from his own mistakes. The wise man learns from the mista
 I've been programming Django for about six years now, so I've learned a lot (mostly the hard way, many of my own fault). 
 
 ### What is an antipattern?
-[Per Sourcemaking.com](https://sourcemaking.com/antipatterns) "An antipattern is a literary form that describes a commonly occurring solution to a problem that generates decidedly negative consequences."
+[Per sourcemaking.com](https://sourcemaking.com/antipatterns) "An antipattern is a literary form that describes a commonly occurring solution to a problem that generates decidedly negative consequences."
 
 ### How do they happen?
 * No ramifications at the time of implementation, but long term increased complexity.
@@ -74,6 +74,7 @@ class Car(models.Model):
 ## Nested Filters filter(cat__animal__zoo__state="New York)
 ## urls.py Nested Spaghetti
 ## Using settings_local and common mistakes
-## Settings.py Not Split Orthogonally 
+## settings.py Not Split Orthogonally 
 ## Custom Admin Inlines Spectrum
+## Don't Use Middleware Components That Rely On Sync Requests
 
