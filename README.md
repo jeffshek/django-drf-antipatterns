@@ -78,4 +78,4 @@ class Car(models.Model):
 ## settings.py Not Split Orthogonally 
 ## Custom Admin Inlines Spectrum
 ## Don't Use Middleware Components That Rely On Sync Requests
-
+## Inverse Model Relationships (Is Your Foreign Key going the right direction?)
