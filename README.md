@@ -73,6 +73,7 @@ class Car(models.Model):
 ## Pages Reliant on External APIs
 ## Nested Filters filter(cat__animal__zoo__state="New York)
 ## urls.py Nested Spaghetti
+## Not Naming Automatic Migration Files
 ## Using settings_local and common mistakes
 ## settings.py Not Split Orthogonally 
 ## Custom Admin Inlines Spectrum
